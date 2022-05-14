@@ -9,5 +9,6 @@ public class AIControl : MonoBehaviour
     void Start()
     {
         agent = this.GetComponent<NavMeshAgent>();
+        // a variavel agent, adquire o componente NavMeshAgent do gameobject
     }
 }
